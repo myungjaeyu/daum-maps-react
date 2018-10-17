@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import DaumMap from './'
 
-describe('ExampleComponent', () => {
+describe('DaumMap', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(DaumMap).toBeTruthy()
   })
 })

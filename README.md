@@ -15,12 +15,12 @@ npm install --save daum-maps-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'daum-maps-react'
+import DaumMap from 'daum-maps-react'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <DaumMap />
     )
   }
 }
