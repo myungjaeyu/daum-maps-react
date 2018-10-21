@@ -18,7 +18,7 @@ export default class DaumMap extends Component {
             window.daum ?
             resolve({ done : true, daum : window.daum }) 
             :
-            load(`https://dapi.kakao.com/v2/maps/sdk.js?&autoload=false&appKey=${ apiKey }&libraries=services,clusterer,drawing`, err => 
+            load(`https://dapi.kakao.com/v2/maps/sdk.js?&autoload=false&appkey=${ apiKey }&libraries=services,clusterer,drawing`, err => 
                 err ? 
                 resolve({ done : false, err : err }) 
                 : 
